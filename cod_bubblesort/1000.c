@@ -25,7 +25,7 @@ void BubbleSort(int arr[],int n){
 			}
 		}
 
-		printf(" passagem %d concluida", i);
+		printf(" passagem %d concluida : ", i);
 		for(int k = 0; k < n; k++){
 			printf("%d ", arr[k]);
 		}
